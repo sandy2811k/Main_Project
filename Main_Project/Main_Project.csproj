@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EBA26089-CA53-461C-B3DE-C05AD9D0C296}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Main_Project</RootNamespace>
+    <AssemblyName>Main_Project</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Main_Project.Collection.Generic.Remove_Duplicate_From_list</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Array_P\1D\Alternate_Element.cs" />
+    <Compile Include="Array_P\1D\Average.cs" />
+    <Compile Include="Array_P\1D\Avg_Of_Prime_Element.cs" />
+    <Compile Include="Array_P\1D\Cal_Sum_of_Even_Array.cs" />
+    <Compile Include="Array_P\1D\Count.cs" />
+    <Compile Include="Array_P\1D\Display_Vowels.cs" />
+    <Compile Include="Array_P\1D\find even.cs" />
+    <Compile Include="Array_P\1D\jagged Array.cs" />
+    <Compile Include="Array_P\1D\Jagged_array_user.cs" />
+    <Compile Include="Array_P\1D\Max&amp;Min_value.cs" />
+    <Compile Include="Array_P\1D\Max_Char.cs" />
+    <Compile Include="Array_P\1D\Even&amp;Odd.cs" />
+    <Compile Include="Array_P\1D\max_min.cs" />
+    <Compile Include="Array_P\1D\Negative_Element.cs" />
+    <Compile Include="Array_P\1D\rainFall For Week.cs" />
+    <Compile Include="Array_P\1D\RainFAll.cs" />
+    <Compile Include="Array_P\1D\search_given.cs" />
+    <Compile Include="Array_P\1D\Search_Number.cs" />
+    <Compile Include="Array_P\1D\Sum_Even.cs" />
+    <Compile Include="A_Code\Book.cs" />
+    <Compile Include="Basic\Accpt2No_findGreater.cs" />
+    <Compile Include="Basic\circle.cs" />
+    <Compile Include="Basic\CompoundInt.cs" />
+    <Compile Include="Basic\equilateralTriangle.cs" />
+    <Compile Include="Basic\leepYear.cs" />
+    <Compile Include="Basic\MarksTotPerAvg.cs" />
+    <Compile Include="Basic\RectanglePerimeter.cs" />
+    <Compile Include="Basic\TempCtoF.cs" />
+    <Compile Include="Basic\TempFtoC.cs" />
+    <Compile Include="Basic\Triangle.cs" />
+    <Compile Include="Collection\Generic\Gen_Dictionary.cs" />
+    <Compile Include="Collection\Generic\Gen_queue.cs" />
+    <Compile Include="Collection\Generic\Gen_List.cs" />
+    <Compile Include="Collection\Generic\Gen_Stack.cs" />
+    <Compile Include="Collection\Generic\Initialize_Value.cs" />
+    <Compile Include="Collection\Generic\JaggedArr_InitizedData.cs" />
+    <Compile Include="Collection\Generic\List_CityName_Find_Frequency.cs" />
+    <Compile Include="Collection\Generic\Remove_Duplicate_From_list.cs" />
+    <Compile Include="Collection\Generic\Stud_Sort.cs" />
+    <Compile Include="Exam_2.cs" />
+    <Compile Include="Array_P\1D\Odd_Position_Element.cs" />
+    <Compile Include="Array_P\1D\Prime_FromArray.cs" />
+    <Compile Include="IComparable Interface\Product.cs" />
+    <Compile Include="IEnumerable&amp;IEnumerator\Program.cs" />
+    <Compile Include="If_Else\+veor-ve.cs" />
+    <Compile Include="If_Else\ANumber.cs" />
+    <Compile Include="If_Else\Avowel.cs" />
+    <Compile Include="If_Else\bill.cs" />
+    <Compile Include="If_Else\calculater.cs" />
+    <Compile Include="If_Else\calculaterswitch.cs" />
+    <Compile Include="If_Else\class4.cs" />
+    <Compile Include="If_Else\Convert_LowToUpper\Convert_LowToUpper_.cs" />
+    <Compile Include="If_Else\DayName.cs" />
+    <Compile Include="If_Else\DivBy3.cs" />
+    <Compile Include="If_Else\divBy5.cs" />
+    <Compile Include="If_Else\duckNumber.cs" />
+    <Compile Include="If_Else\Enter_charecter.cs" />
+    <Compile Include="If_Else\EvenOrOdd.cs" />
+    <Compile Include="If_Else\factorialFromUser.cs" />
+    <Compile Include="If_Else\Greater_No_Bet_3.cs" />
+    <Compile Include="If_Else\Light_BiLL.cs" />
+    <Compile Include="If_Else\loopeOdd.cs" />
+    <Compile Include="If_Else\LoopEven.cs" />
+    <Compile Include="If_Else\NumberBet270to120.cs" />
+    <Compile Include="If_Else\NumbersBetween25to85.cs" />
+    <Compile Include="If_Else\percentage.cs" />
+    <Compile Include="If_Else\PositiveNegative.cs" />
+    <Compile Include="If_Else\prime2.cs" />
+    <Compile Include="If_Else\primeNo.cs" />
+    <Compile Include="If_Else\primeNo1To10.cs" />
+    <Compile Include="If_Else\primeOrNotprime.cs" />
+    <Compile Include="If_Else\SumofEven1to20.cs" />
+    <Compile Include="If_Else\switchOddEven.cs" />
+    <Compile Include="If_Else\tableBet1To5.cs" />
+    <Compile Include="If_Else\Upperoolower.cs" />
+    <Compile Include="Loop_1\For\CalSumOfPrime.cs" />
+    <Compile Include="Loop_1\For\Count_odd_num_bet1to20.cs" />
+    <Compile Include="Loop_1\For\ForDivBy11.cs" />
+    <Compile Include="Loop_1\For\ForDivBy3and5.cs" />
+    <Compile Include="Loop_1\For\Prime bet 11to21.cs" />
+    <Compile Include="Loop_1\For\Prime_N0_11to21.cs" />
+    <Compile Include="Loop_1\For\Square 1 to 20.cs" />
+    <Compile Include="Loop_1\For\Square_Of_No._Bet_1to20.cs" />
+    <Compile Include="Loop_1\Number_21to30.cs" />
+    <Compile Include="Loop_1\Number_45to25.cs" />
+    <Compile Include="Loop_1\Num_bet_1to20_divby_5.cs" />
+    <Compile Include="Loop_1\Odd_Num_1to20.cs" />
+    <Compile Include="Loop_1\Sum_of_10to1.cs" />
+    <Compile Include="Loop_1\Sum_of_odd_num_1to20.cs" />
+    <Compile Include="Loop_1\While\Count_Of_Given_NUmber.cs" />
+    <Compile Include="Loop_1\While\Dig_Sum_if3_5.cs" />
+    <Compile Include="Loop_1\While\EvenFromGiven.cs" />
+    <Compile Include="Loop_1\While\evenNo1to100.cs" />
+    <Compile Include="Loop_1\While\factorialFromUser.cs" />
+    <Compile Include="Loop_1\While\fiboonanci.cs" />
+    <Compile Include="Loop_1\While\ForAvgDig.cs" />
+    <Compile Include="Loop_1\While\Num_Bet_1to20_div_by5.cs" />
+    <Compile Include="Loop_1\While\Num_bet_21to30.cs" />
+    <Compile Include="Loop_1\While\Num_Bet_45to25.cs" />
+    <Compile Include="Loop_1\While\oddNo1to100.cs" />
+    <Compile Include="Loop_1\While\odd_num_bet_1to20.cs" />
+    <Compile Include="Loop_1\While\palindrom.cs" />
+    <Compile Include="Loop_1\While\primeNo1to10.cs" />
+    <Compile Include="Loop_1\While\Reverse&amp;Palindrom.cs" />
+    <Compile Include="Loop_1\While\reversNo.cs" />
+    <Compile Include="Loop_1\While\spyNo.cs" />
+    <Compile Include="Loop_1\While\sumOfDigit.cs" />
+    <Compile Include="Loop_1\While\SumOfEvenDig.cs" />
+    <Compile Include="Loop_1\While\sum_of_10to1.cs" />
+    <Compile Include="Loop_1\While\Sum_Of_GivenNum.cs" />
+    <Compile Include="Loop_1\While\sum_of_input.cs" />
+    <Compile Include="Loop_1\While\WhileDivby11.cs" />
+    <Compile Include="Loop_1\While\WhileDivBy3and5.cs" />
+    <Compile Include="NEW\HashtableExample.cs" />
+    <Compile Include="NEW\QueueExample.cs" />
+    <Compile Include="NEW\SortedlistExample.cs" />
+    <Compile Include="Pattern\AABABCABCD.cs" />
+    <Compile Include="Pattern\abc.cs" />
+    <Compile Include="Pattern\number1.cs" />
+    <Compile Include="Pattern\number12345.cs" />
+    <Compile Include="Pattern\number1_23_345.cs" />
+    <Compile Include="Pattern\number5_45.cs" />
+    <Compile Include="Pattern\patternNumber.cs" />
+    <Compile Include="Pattern\star.cs" />
+    <Compile Include="Pattern\star1_2_ 2_4.cs" />
+    <Compile Include="Pattern\star4_1.cs" />
+    <Compile Include="Pattern\starC4R1.cs" />
+    <Compile Include="Pattern\starR1C8.cs" />
+    <Compile Include="Pattern\starR4_C1.cs" />
+    <Compile Include="Pattern\starR8_C1.cs" />
+    <Compile Include="Pattern\star_123.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Array_P\1D\Search_FromArray.cs" />
+    <Compile Include="Array_P\1D\Sum_ofArray.cs" />
+    <Compile Include="Array_P\1D\Sum_Of_Aleternate_FromArray.cs" />
+    <Compile Include="String_P\Anagram_P.cs" />
+    <Compile Include="String_P\Count_Occurance_Of_Char.cs" />
+    <Compile Include="String_P\Count_Tot_Num_Of_Words.cs" />
+    <Compile Include="String_P\Count_Vowel_Consonants.cs" />
+    <Compile Include="String_P\Find_Tot_Alphabet_Dig_SChar.cs" />
+    <Compile Include="String_P\First_Occurence_Of_Char.cs" />
+    <Compile Include="String_P\High_Freq_Char.cs" />
+    <Compile Include="String_P\IsNullOrEmpt.cs" />
+    <Compile Include="String_P\NewFolder1\Function_info.cs" />
+    <Compile Include="String_P\Reverse_Char.cs" />
+    <Compile Include="String_P\Reverse_Order.cs" />
+    <Compile Include="String_P\Rev_India.cs" />
+    <Compile Include="String_P\Split_String_into2.cs" />
+    <Compile Include="String_P\Toggle_Case.cs" />
+    <Compile Include="String_P\Trim_Leading_White_Space.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Array_P\2D\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
