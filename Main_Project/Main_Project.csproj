@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Main_Project.Exception_Handling.Student_CLass</StartupObject>
+    <StartupObject>Main_Project.Deleg_Demo.Program_BK</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,17 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Deleg_Demo\Anonymous_Method\Event_Method.cs" />
     <Compile Include="Array_P\1D\Alternate_Element.cs" />
     <Compile Include="Array_P\1D\Average.cs" />
     <Compile Include="Array_P\1D\Avg_Of_Prime_Element.cs" />
     <Compile Include="Array_P\1D\Cal_Sum_of_Even_Array.cs" />
     <Compile Include="Array_P\1D\Count.cs" />
-    <Compile Include="Array_P\1D\Display_Vowels.cs" />
+    <Compile Include="Deleg_Demo\Program_BK.cs" />
+    <Compile Include="Exception_Handling\Negative_Number.cs" />
+    <Compile Include="String_P\Display_Vowels.cs" />
     <Compile Include="Array_P\1D\find even.cs" />
     <Compile Include="Array_P\1D\jagged Array.cs" />
     <Compile Include="Array_P\1D\Jagged_array_user.cs" />
     <Compile Include="Array_P\1D\Max&amp;Min_value.cs" />
-    <Compile Include="Array_P\1D\Max_Char.cs" />
+    <Compile Include="String_P\Max_Char.cs" />
     <Compile Include="Array_P\1D\Even&amp;Odd.cs" />
     <Compile Include="Array_P\1D\max_min.cs" />
     <Compile Include="Array_P\1D\Negative_Element.cs" />
@@ -78,13 +81,15 @@
     <Compile Include="Basic\Triangle.cs" />
     <Compile Include="Collection\HashSet_\City_Coolection.cs" />
     <Compile Include="Collection\HashSet_\Coding_Language.cs" />
+    <Compile Include="Deleg_Demo\Event_M.cs" />
+    <Compile Include="Deleg_Demo\Single\User.cs" />
     <Compile Include="Exam_2.cs" />
     <Compile Include="Array_P\1D\Odd_Position_Element.cs" />
     <Compile Include="Array_P\1D\Prime_FromArray.cs" />
     <Compile Include="Exception_Handling\Employe3.cs" />
     <Compile Include="Exception_Handling\Student_CLass.cs" />
-    <Compile Include="IComparable Interface\Product.cs" />
-    <Compile Include="IEnumerable&amp;IEnumerator\Program.cs" />
+    <Compile Include="Collection\IComparable Interface\Product.cs" />
+    <Compile Include="Collection\IEnumerable&amp;IEnumerator\Program.cs" />
     <Compile Include="If_Else\+veor-ve.cs" />
     <Compile Include="If_Else\ANumber.cs" />
     <Compile Include="If_Else\Avowel.cs" />
@@ -154,9 +159,9 @@
     <Compile Include="Loop_1\While\sum_of_input.cs" />
     <Compile Include="Loop_1\While\WhileDivby11.cs" />
     <Compile Include="Loop_1\While\WhileDivBy3and5.cs" />
-    <Compile Include="NEW\HashtableExample.cs" />
-    <Compile Include="NEW\QueueExample.cs" />
-    <Compile Include="NEW\SortedlistExample.cs" />
+    <Compile Include="Collection\NEW\HashtableExample.cs" />
+    <Compile Include="Collection\NEW\QueueExample.cs" />
+    <Compile Include="Collection\NEW\SortedlistExample.cs" />
     <Compile Include="Pattern\AABABCABCD.cs" />
     <Compile Include="Pattern\abc.cs" />
     <Compile Include="Pattern\number1.cs" />
@@ -191,6 +196,7 @@
     <Compile Include="String_P\Split_String_into2.cs" />
     <Compile Include="String_P\Toggle_Case.cs" />
     <Compile Include="String_P\Trim_Leading_White_Space.cs" />
+    <Compile Include="Deleg_Demo\User_L.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Array_P\2D\" />
